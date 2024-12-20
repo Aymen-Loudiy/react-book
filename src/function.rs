@@ -1,15 +1,15 @@
-fn main() {
+fn _main() {
     println!("Hello, world!");
 
-    another_function();
+    _another_function();
 }
 
-fn another_function() {
+fn _another_function() {
     println!("Another function.");
 }
-fn statement_vs_expression() {
-    let statement = 5;
-    let expression = {
+fn _statement_vs_expression() {
+    let _statement = 5;
+    let _expression = {
         let x = 5;
         x + 1
     };

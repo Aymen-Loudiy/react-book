@@ -1,3 +1,3 @@
-fn hello_cargo() {
+fn _hello_cargo() {
     println!("Hello, cargo!");
 }

@@ -1,4 +1,4 @@
-fn variables() {
+fn _variables() {
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
     println!("The value of the constant is :{THREE_HOURS_IN_SECONDS}");
     let x = 5;

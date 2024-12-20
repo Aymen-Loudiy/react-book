@@ -6,4 +6,6 @@ mod variables;
 
 fn main() {
     println!("Hello, world!");
+    control_flow::_control_flow();
+    control_flow::_loops();
 }

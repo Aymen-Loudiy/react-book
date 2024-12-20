@@ -1,4 +1,4 @@
-fn _data_types() {
+pub fn _data_types() {
     let _a: u32 = 50;
     let _b: i32 = -5;
     let _c: f64 = 1.03;

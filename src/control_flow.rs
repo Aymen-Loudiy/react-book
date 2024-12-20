@@ -1,4 +1,4 @@
-fn _control_flow() {
+pub fn _control_flow() {
     let number = 3;
     if number < 5 {
         println!("condition was true");
@@ -19,7 +19,7 @@ fn _control_flow() {
         println!("number is not divisible by 4, 3, or 2");
     }
 }
-fn _loops() {
+pub fn _loops() {
     loop {
         println!("again!");
         break;

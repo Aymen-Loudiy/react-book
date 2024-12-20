@@ -1,13 +1,13 @@
-fn _main() {
+pub fn _main() {
     println!("Hello, world!");
 
     _another_function();
 }
 
-fn _another_function() {
+pub fn _another_function() {
     println!("Another function.");
 }
-fn _statement_vs_expression() {
+pub fn _statement_vs_expression() {
     let _statement = 5;
     let _expression = {
         let x = 5;
